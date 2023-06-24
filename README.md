@@ -1,6 +1,16 @@
+ChatApp
+ChatApp is a real-time chat application built using Node.js, Express.js, Socket.io, and Redis. It allows users to communicate with each other in a seamless and interactive manner.
 
+Features
+Real-time messaging: Chat with other users in real-time, enabling instant communication.
+Message history: Access the chat message history to review previous conversations.
+Multiple users: Support for multiple users simultaneously connected to the chat application.
+Socket.io: Utilizes the Socket.io library for efficient and reliable real-time communication.
+Redis integration: Uses Redis as a message broker for handling and storing chat messages.
 
 https://user-images.githubusercontent.com/125793435/236618401-e8b9a383-5d72-4cf7-9671-f7043c17e118.mp4
+
+
 
 # Getting Started with Create React App
 
