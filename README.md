@@ -1,71 +1,48 @@
-Mercansoft Chat App
-Mercansoft is a real-time chat application built using Node.js, Express.js, Socket.io, and Redis. This repository contains the backend code for the chat application.
 
-Table of Contents
-Features
-Prerequisites
-Installation
-Usage
-Contributing
-License
-Features
-Real-time communication: Chat with other users in real-time.
-Socket.io integration: Utilizes Socket.io for real-time event-based communication.
-Redis integration: Uses Redis as a data store for handling messages.
-Scalability: The use of Redis allows for scalability and handling a large number of concurrent users.
-Prerequisites
-Before running the application, ensure you have the following prerequisites installed:
 
-Node.js: Download and Install Node.js
-Redis: Download and Install Redis
-Installation
-Clone the repository:
+https://user-images.githubusercontent.com/125793435/236618401-e8b9a383-5d72-4cf7-9671-f7043c17e118.mp4
 
-bash
-Copy code
-git clone https://github.com/your-username/mercansoft-chat-app.git
-Navigate to the project directory:
+# Getting Started with Create React App
 
-bash
-Copy code
-cd mercansoft-chat-app
-Install the dependencies:
 
-bash
-Copy code
-npm install
-Set up environment variables:
 
-Create a .env file in the root directory and provide the following environment variables:
 
-bash
-Copy code
-REDIS_HOST=<redis_host>
-REDIS_PORT=<redis_port>
-REDIS_PASS=<redis_password>
-Replace <redis_host>, <redis_port>, and <redis_password> with your Redis server details.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Usage
-Start the Redis server.
+## Available Scripts
 
-Start the Node.js server:
+In the project directory, you can run:
 
-bash
-Copy code
-npm start
-The server will start running at http://localhost:3000.
+### `npm start`
 
-Open the frontend application to access the chat interface.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Start chatting with other users in real-time!
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Contributing
-Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+### `npm test`
 
-Fork the repository.
-Create a new branch: git checkout -b my-feature-branch.
-Make your changes and commit them: git commit -am 'Add new feature'.
-Push to the branch: git push origin my-feature-branch.
-Submit a pull request.
-License
-This project is licensed under the MIT License.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
