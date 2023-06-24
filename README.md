@@ -1,7 +1,10 @@
 ChatApp
+
 ChatApp is a real-time chat application built using Node.js, Express.js, Socket.io, and Redis. It allows users to communicate with each other in a seamless and interactive manner.
 
 Features
+
+
 Real-time messaging: Chat with other users in real-time, enabling instant communication.
 Message history: Access the chat message history to review previous conversations.
 Multiple users: Support for multiple users simultaneously connected to the chat application.
